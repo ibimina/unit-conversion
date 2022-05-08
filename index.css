@@ -1,0 +1,108 @@
+h1,
+h2,
+p,
+body,button,label,input {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: rgb(238, 221, 221);
+}
+header {
+  padding: 1rem;
+  text-align: center;
+   background-image: linear-gradient(to right, #18244A,#3B69E1);
+  color: white;
+}
+
+input{
+    /* width: 300px;
+    height: 30px; */
+    border-radius: 10px;
+    padding: 5px;
+}
+form{
+    /* background-color: rgb(170, 146, 192); */
+    /* text-align: center; */
+    padding: 1.5rem;
+    background-image: linear-gradient(to right, #18244A,#3B69E1);
+   color: white;
+}
+section{
+    text-align: center;
+    /* padding: 4rem; */
+    padding-top: 5rem;
+    height: 100%;
+    /* display: grid;
+    justify-content: center;
+align-items: center; */
+
+}
+.length{
+    margin-bottom: 3rem;
+}
+h2{
+    margin-bottom: 1rem;
+}
+
+.volume{
+    margin-bottom: 3rem;
+}
+button{
+    border: 0;
+    padding-inline: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 10px;
+   margin-top: 1rem; 
+   color: white;
+   background-color: navy;
+   
+}
+button:hover{
+background-color: rgb(3, 3, 3);
+color:white;
+}
+.clear{
+    margin: 1rem;
+}
+
+@media (min-width:45rem) {
+    header {
+  padding: 2rem;
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+}
+ input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+}
+form{
+    text-align: center;
+}
+button{
+    border: 0;
+    padding-inline: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 10px;
+}
+
+
+label{
+font-size: 28px;
+    text-align: center;
+    padding: 0;
+    margin-right: 1rem;
+}
+section{
+    padding: 4rem;
+}
+}
