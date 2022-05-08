@@ -32,8 +32,8 @@ Users should be able to:
 
 
 ### Links
-- Solution URL: (https://github.com/ibimina/unit-conversion-main)
-- Live Site URL:(https://ibimina.github.io/unit-conversion-main/)
+- Solution URL: (https://github.com/ibimina/unit-conversion)
+- Live Site URL:(https://ibimina.github.io/unit-conversion/)
 
 
 ## My process
